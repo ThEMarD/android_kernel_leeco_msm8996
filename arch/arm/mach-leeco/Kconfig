@@ -70,6 +70,7 @@ config MACH_LEECO_X2
 	select ANALOGIX_OHIO
 	select BACKLIGHT_LM3697
 	select DEEP_SLEEP_LED_SWITCH
+	select INPUT_FPC1020
 	select INPUT_DRV2604L_HAPTICS
 	select TOUCHKEY_ATMEGA48A_LETV
 	select TOUCHSCREEN_ATMEL_MXT_LETV
@@ -87,6 +88,7 @@ config MACH_LEECO_X2
 	  * Analogix -> USB Type-C
 	  * LM3697 -> Backlight
 	  * TI DRV2604L -> Vibrator
+	  * FPC1020 -> Fingerprint Sensor
 	  * ATmega48A -> Capacitive Keys
 	  * Atmel MXT -> Display Panel
 	  * Hideep TP -> Panel Pressure Reporting

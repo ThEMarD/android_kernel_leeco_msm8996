@@ -1,0 +1,11 @@
+#
+# Fingerprint FPC1020 sensor
+#
+config INPUT_FPC1020
+	tristate "FPC1020 driver support"
+	depends on INPUT
+	help
+	  Say Y here if you want to support FPC1020
+	  fingerprint sensor.
+
+	  If unsure, say N.
